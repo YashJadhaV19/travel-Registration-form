@@ -1,0 +1,83 @@
+html,
+body{
+    background-image: url("pngtree-black-red-and-white-color-geometric-background-design-for-banner-business-image_632652.jpg");
+        background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding: 30px;
+    font-size: 50px;
+    text-align: center;
+    box-sizing: border-box;
+}
+header {
+    font-size: 50px;
+    font-family:  ;
+    text-align: center;
+    text-shadow: 2cm;
+    border: 10px;
+}
+input[type=text]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(244, 231, 231);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=number]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(244, 231, 231);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=email]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid rgb(244, 231, 231);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=date]  {
+    width: 20%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid bl;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    align-content: center;
+}
+input[type=number]:focus  {
+    border: 3px solid #455;
+}
+input[type=email]:focus  {
+    border: 3px solid #455;
+}
+input[type=date]:focus  {
+    border: 3px solid #455;
+}
+input[type=text]:focus  {
+    border: 3px solid #455;
+}
+::-webkit-input-placeholder { /* Edge */
+    color: gray;
+}
+:-ms-input-placeholder { /* Internet Explorer */
+    color:gray ;
+}
+::placeholder {
+    color: gray ;
+}
